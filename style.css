@@ -1,0 +1,407 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+nav h1 {
+    color: antiquewhite;
+    text-decoration: none !important;
+    font-size: x-large;
+    margin-right: 420px;
+}
+
+nav img {
+    border-radius: 50%;
+    padding: 5px;
+    margin: 15px;
+    box-shadow: 2px 2px 2px 3px whitesmoke;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    display: flex;
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: medium;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background-color: rgb(35, 34, 34);
+    height: 20px;
+}
+
+#steveimg {
+    width: 100%;
+    height: 690px;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+.head1 {
+    color: white;
+    font-weight: 800;
+    text-shadow: 0 0 3px #FF0000;
+    letter-spacing: 2px;
+}
+
+.head1 h2 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    animation: gradientText 5s ease-in-out infinite;
+}
+
+@keyframes gradientText {
+    0% {
+        color: rgb(129, 26, 26);
+    }
+
+    25% {
+        color: rgb(108, 108, 7);
+    }
+
+    50% {
+        color: rgb(20, 20, 138);
+    }
+
+    100% {
+        color: rgb(25, 121, 25);
+    }
+}
+
+.head1 h2:hover {
+    font-size: 40px;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.head2 {
+    color: white;
+    font-weight: 800;
+    text-shadow: 0 0 3px #FF0000;
+    letter-spacing: 2px;
+}
+
+.head2 h2 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.head2 h2:hover {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+
+.overlay4 {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+
+/* About Section */
+
+.paragraph {
+    color: white;
+    font-weight: 800;
+    text-shadow: 0 0 3px #FF0000;
+    letter-spacing: 2px;
+}
+
+.paragraph .para {
+    font-family: 'Lobster', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    color: black;
+    font-size: xx-large;
+    text-shadow: 4px 5px 7px red;
+    text-align: center;
+    margin: 15px;
+}
+
+h3:hover {
+    text-shadow: none;
+    color: rgb(22, 22, 54);
+    text-decoration: underline;
+}
+
+.pic {
+    display: flex;
+}
+
+.pic p {
+    text-align: justify;
+    margin: 15px;
+}
+
+h4 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#timeline {
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 250px;
+    height: 200px;
+}
+
+.gallery {
+    margin-left: 150px;
+    display: inline-block;
+}
+
+.gallery img:hover {
+    box-shadow: 10px 10px 5px rgb(0, 8, 92);
+}
+
+.container {
+    position: relative;
+    float: left;
+    width: 250px;
+    margin: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(240, 61, 61);
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-align: justify;
+}
+
+.overlay h4 {
+    color: rgb(246, 220, 186);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    background-color: rgb(44, 43, 43);
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.col:hover {
+    box-shadow: 6px 6px red;
+}
+
+#awardicon {
+    color: azure;
+    padding-top: 10px;
+    font-size: xx-large;
+    margin-left: 110px;
+}
+
+.awardhead {
+    text-align: center;
+    color: azure;
+    text-decoration: none !important;
+    text-shadow: none !important;
+    font-size: x-large !important;
+}
+
+.awardhead:hover {
+    text-shadow: 2px 3px rgb(255, 188, 255) !important;
+}
+
+.awardname {
+    color: aliceblue;
+    text-align: center;
+}
+
+.awardname:hover {
+    text-decoration: underline;
+}
+
+.photos {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 78px;
+}
+
+.photos img:hover {
+    box-shadow: 3px 3px;
+}
+
+#morephotos{
+    margin-left: 100px;
+}
+
+.video {
+    display: block;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+#videos{
+    margin-left: 40px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.map {
+    border: 1px solid whitesmoke;
+    border-color: rgb(144, 139, 139);
+    box-shadow: 2px 3px 4px black;
+    width: 45%;
+    margin-right: 20px;
+}
+
+.aboutclz li {
+    font-size: x-large;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+.p1 {
+    font-size: larger;
+    margin-left: 30px;
+}
+
+#mapframe {
+    justify-content: center;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.form {
+    border: 1px solid whitesmoke;
+    border-color: rgb(144, 139, 139);
+    box-shadow: 2px 3px 4px black;
+    width: 45%;
+}
+
+input {
+    width: 100%;
+    height: 15px;
+}
+
+textarea {
+    width: 100%;
+}
+
+#formheading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#formgroup {
+    padding: 15px;
+    margin: 30px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 5px;
+    margin-left: 250px;
+    margin-top: 20px;
+    background-color: rgb(2, 2, 56);
+    color: beige;
+}
+
+button:hover {
+    background-color: rgb(31, 74, 111);
+}
+
+footer {
+    background-color: rgb(58, 61, 58);
+    color: white;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+#link{
+    border: 1px;
+    border-radius: 500px;
+}
+
+.iconimg{
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#addressicon{
+    width: 10px;
+}
+
+#icon{
+    font-size: 30px;
+    
+}
